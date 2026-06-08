@@ -1,6 +1,4 @@
 # Hex-ToolKit
-# Hex Toolkit
-
 A clean, interactive color utility tool built with vanilla HTML, CSS, and JavaScript.
 
 ![HTML](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
