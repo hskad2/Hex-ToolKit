@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Toolkit</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <h1>Hex Toolkit</h1>
+
+        <input
+            type="color"
+            id="colorPicker"
+            value="#3B82F6"
+        >
+
+        <div
+            class="color-preview"
+            id="preview"
+        ></div>
+
+        <div class="hex-container">
+
+            <input
+                type="text"
+                id="hexCode"
+                readonly
+            >
+
+            <button id="copyBtn">
+                Copy
+            </button>
+
+        </div>
+
+        <div class="rgb-container">
+
+            <input
+                type="text"
+                id="rgbCode"
+                readonly
+            >
+
+        </div>
+
+        <div class="history-section">
+
+            <h3>Recent Colors</h3>
+
+            <div id="history"></div>
+
+        </div>
+
+        <div class="gradient-section">
+
+            <h3>Gradient Generator</h3>
+
+            <input
+                type="color"
+                id="gradientColor1"
+                value="#3B82F6"
+            >
+
+            <input
+                type="color"
+                id="gradientColor2"
+                value="#10B981"
+            >
+
+            <button id="generateGradient">
+                Generate Gradient
+            </button>
+
+        </div>
+
+        <button id="exportPalette">
+            Export Palette
+        </button>
+
+        <button id="randomBtn">
+            Random Color
+        </button>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
